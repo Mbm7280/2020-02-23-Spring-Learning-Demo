@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 将 BeanFactory 托管给 Spring -->
+    <bean id="beanFactory" class="com.hoem.mbm.factory.BeanFactory"></bean>
+
+    <!-- 创建 IAccountMapper 对象  -->
+    <bean id="accountMapper" factory-bean="beanFactory" factory-method="getMapper"></bean>
+
+    <!-- 创建 IAccountService 对象  -->
+    <bean id="accountService" factory-bean="beanFactory" factory-method="getService"></bean>
+
+</beans>
