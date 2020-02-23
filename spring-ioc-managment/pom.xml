@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>Spring-Demo-2.0</artifactId>
+        <groupId>com.home</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>spring-ioc-managment</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>spring-ioc-con-demo</module>
+        <module>spring-ioc-factory-demo</module>
+        <module>spring-ioc-static-factory-demo</module>
+        <module>spring-ioc-eg-xml-demo</module>
+        <module>spring-ioc-eg-anno-demo</module>
+        <module>spring-ioc-eg-anno-x-demo</module>
+        <module>spring-ioc-eg-anno-xx-demo</module>
+        <module>spring-ioc-eg-anno-xxx-demo</module>
+    </modules>
+
+
+</project>
