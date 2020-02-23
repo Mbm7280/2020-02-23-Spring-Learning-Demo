@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Spring-Ioc 负责创建对象 -->
+
+    <!-- AccountMapperImpl 托管给 Spring -->
+    <bean id="accountMapper" class="com.home.mbm.mapper.impl.AccountMapperImpl"></bean>
+
+    <!-- AccountServiceImpl 托管给 Spring -->
+    <bean id="accountService" class="com.home.mbm.service.impl.AccountServiceImpl"></bean>
+
+</beans>
