@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.home</groupId>
+    <artifactId>Spring-Demo-2.0</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>spring-ioc-managment</module>
+        <module>spring-coupling-managment</module>
+        <module>spring-di-managment</module>
+        <module>spring-aop-managment</module>
+        <module>spring-transaction-managment</module>
+        <module>spring-jdbc-managment</module>
+    </modules>
+    <packaging>pom</packaging>
+
+
+</project>
